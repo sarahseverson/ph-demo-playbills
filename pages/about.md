@@ -22,10 +22,9 @@ The [University of Alberta Library](https://library.ualberta.ca/) acquired this 
 
 This collection was digitized in 2019 by the University of Alberta Library and hosted on the Internet Archive platform. A student created item-level metadata. For this demo site, the location data (longitude and latitude) was made but not verified and may not be accurate.  
 
-### How can I see one of these in person? 
+### How can I see one of the playbills in person? 
 To view materials held in Bruce Peel Special Collections, please write to us at bpsc@ualberta.ca to request an appointment well in advance, listing the requested materials and indicating which weekday afternoons would work.
 
 {% include feature/image.html objectid="https://bpsc.library.ualberta.ca/assets/img/ReadingroomB.jpg" width="75" alt="Bruce Peel Special Collections Reading Room" caption="Bruce Peel Special Collections Reading Room" %}
 
-## Technical Credits 
-This site is generated using CollectionBuilder-GH, a framework to create a free and simple digital collection using GitHub Pages from a CSV of collection metadata and, in this case, links to digital objects hosted elsewhere. For full details of creating your collection site, visit the extensive documentation at [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+
