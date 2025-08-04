@@ -7,24 +7,24 @@ layout: page
   <div class="col-md-7">
 
     {% include index/description.html %}
-
+    {% include index/data-download.html %}
   
   </div>
   <div class="col-md-5">  
 
     {% include index/time.html %}
     {% include index/featured-terms.html field="subject" title="Top Genres" btn-color="primary" %}
+        {% include index/featured-terms.html field="theatre-name" title="Theatre" btn-color="primary" %}
 
 
 
   </div>
   <div class="col-md-12">
 
-        {% include index/featured-terms.html field="theatre-name" title="Theatre" btn-color="primary" %}
 
 
 
-    {% include index/data-download.html %}
+
 
 
   </div>
