@@ -4,26 +4,23 @@ layout: page
 ---
 <div class="row">
 
-  <div class="col-md-8">
+  <div class="col-md-7">
 
     {% include index/description.html %}
 
-        {% include index/time.html %}
-
   
   </div>
-  <div class="col-md-4">  
+  <div class="col-md-5">  
 
     {% include index/time.html %}
+    {% include index/featured-terms.html field="subject" title="Top Genres" btn-color="primary" %}
 
 
 
   </div>
   <div class="col-md-12">
 
-    {% include index/featured-terms.html field="subject" title="Top Genre" btn-color="primary" %}
         {% include index/featured-terms.html field="theatre-name" title="Theatre" btn-color="primary" %}
-            {% include index/featured-terms.html field="playwright" title="Theatre" btn-color="primary" %}
 
 
 
