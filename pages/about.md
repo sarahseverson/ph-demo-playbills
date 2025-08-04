@@ -8,20 +8,24 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/nav-menu.html sections="About this Digital Exhibition;About the Collection;Techincal Credits" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+## About this Digital Exhibition 
+This digital collection exhibit was created as an example for the Programming Historian tutorial <insert title here when published >. 
 
-## About the Collection
+### Acknowledgement 
+Thank you to Natasha D'Amours and Dana Villareal for their early feedback. 
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+## About the English Playbills Collection
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+The [University of Alberta Library](https://library.ualberta.ca/) acquired this collection of historic theatre playbills for study and research in the Department of Drama between the late 1960s and the early 1980s. This collection helps to document many of the performances staged in the major playhouses in the United Kingdom from 1779 to 1902, with the bulk of them from 1804 to 1885. It provides a wealth of information about dramatic performances, ranging from the plays, playwrights, and actors to theatres, dates, and ticket prices. It is of potential interest not only for the study of drama but also for the study of book history and graphic design. 
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+This collection was digitized in 2019 by the University of Alberta Library and hosted on the Internet Archive platform. A student created item-level metadata. For this demo site, the location data (longitude and latitude) was made but not verified and may not be accurate.  
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+### How can I see one of these in person? 
+To view materials held in Bruce Peel Special Collections, please write to us at bpsc@ualberta.ca to request an appointment well in advance, listing the requested materials and indicating which weekday afternoons would work.
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% include feature/image.html objectid="https://bpsc.library.ualberta.ca/assets/img/ReadingroomB.jpg" width="75" alt="Bruce Peel Special Collections Reading Room" caption="Bruce Peel Special Collections Reading Room" %}
+
+## Technical Credits 
+This site is generated using CollectionBuilder-GH, a framework to create a free and simple digital collection using GitHub Pages from a CSV of collection metadata and, in this case, links to digital objects hosted elsewhere. For full details of creating your collection site, visit the extensive documentation at [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
