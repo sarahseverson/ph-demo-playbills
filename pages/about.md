@@ -10,11 +10,11 @@ credits: true
 
 {% include feature/nav-menu.html sections="About this Digital Exhibition;About the Collection" %}
 
-## About this Digital Exhibition 
-This digital collection exhibit was created as an example for the Programming Historian tutorial <insert title here when published >. 
+## About this Digital Collections Exhibit
+This site was created as a demo for a Programming Historian tutorial -- insert title here when published. Thank you to Natasha D'Amours and Dana Villareal for their early feedback. 
 
-### Acknowledgement 
-Thank you to Natasha D'Amours and Dana Villareal for their early feedback. 
+ {% include index/data-download.html %}
+
 
 ## About the English Playbills Collection
 
