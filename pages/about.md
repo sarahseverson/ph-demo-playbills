@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/nav-menu.html sections="About this Digital Exhibition;About the Collection;Techincal Credits" %}
+{% include feature/nav-menu.html sections="About this Digital Exhibition;About the Collection" %}
 
 ## About this Digital Exhibition 
 This digital collection exhibit was created as an example for the Programming Historian tutorial <insert title here when published >. 
