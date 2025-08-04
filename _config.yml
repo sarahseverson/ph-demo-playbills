@@ -22,7 +22,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: English Playbills Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: *Bruce Peel Special Collections*, University of Alberta Library
+tagline: Bruce Peel Special Collections, University of Alberta Library
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "A simple digital collection exhibit created with the CollectionBuilder framework for use as a demo in a Programming Historian tutorial."
